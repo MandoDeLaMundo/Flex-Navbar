@@ -1,0 +1,39 @@
+*{
+
+}
+
+.nav {
+    height: 40px;
+    background-color: #333333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+span {
+    color: white;
+}
+
+.nav-links{
+    display: inline-flex;
+}
+
+ul.nav-links {
+    list-style-type: none;
+}
+
+a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+}
+
+button {
+    height: auto;
+    width: auto;
+    border: 2px solid black;
+    background-color: #17A2B8;
+    box-shadow: 2px 2px black;
+}
